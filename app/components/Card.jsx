@@ -1,9 +1,9 @@
 import React from 'react'
 import { ArrowRight } from 'lucide-react'
 
-function Card({width,headingFirst,headingSecond,paragraph,hover="none"}) {
+function Card({width,headingFirst,headingSecond,paragraph,background,foreground}) {
   return (
-    <div className={` flex flex-col justify-between bg-zinc-200 h-[23rem] p-10 rounded-xl ${width} ${!hover} `}>
+    <div className={` flex flex-col justify-between ${background} ${foreground} h-[23rem] p-10 rounded-xl ${width}  `}>
     <div className='w-full'>
           <div className=' w-full justify-between items-center flex'>
           <h1>Card</h1>
