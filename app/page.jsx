@@ -6,7 +6,7 @@ import Cards from './components/Cards'
 import Footer from './components/Footer'
 
 
-const page = ({children}) => {
+const page = () => {
   
   return (
     <div>
@@ -15,7 +15,6 @@ const page = ({children}) => {
     <FeatureSection/>
     <Cards/>
     <Footer/>
-      {children}
       </div>
   )
 }
