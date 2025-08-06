@@ -1,7 +1,9 @@
 {
-  "compilerOptions": {
+    "compilerOptions": {
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./src/*"]
     }
+    // ... other typescript options
   }
 }
