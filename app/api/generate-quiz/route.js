@@ -28,19 +28,13 @@ export async function POST(req) {
     Format the output as a single JSON object with a "quiz" key. The value should be an array of question objects.
     Each question object must have:
     - "question": The question text (string).
-    - "type": "multiple-choice" or "short-answer" (string).
-    - "options": An array of strings for multiple-choice, or null for short-answer.
+    - "type": "multiple-choice" 
+    - "options": An array of strings for multiple-choice, or null .
     - "answer": The correct answer (string).
 
     Example:
     {
       "quiz": [
-        {
-          "question": "What is Docker?",
-          "type": "short-answer",
-          "options": null,
-          "answer": "A platform for developing, shipping, and running applications in containers."
-        },
         {
           "question": "Which command is used to build a Docker image?",
           "type": "multiple-choice",
@@ -52,7 +46,7 @@ export async function POST(req) {
     `;
 
     const result = await ai.getGenerativeModel({ model: modelName, generationConfig }).generateContent(prompt);
-    const generatedQuizJson = JSON.parse(await result.response.text());
+    const generatedQuizJson = JSON.parse(result.response.text());
     
     // --- Update the Database with the new quiz ---
     const existingCourse = await db.select().from(courseTable).where(eq(courseTable.cid, courseId));

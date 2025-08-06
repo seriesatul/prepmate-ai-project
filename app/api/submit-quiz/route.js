@@ -58,7 +58,7 @@ export async function POST(req) {
     });
 
     const score = totalQuestions > 0 ? Math.round((correctCount / totalQuestions) * 100) : 0;
-    const passingScore = 80;
+    const passingScore = 50;
     const passed = score >= passingScore;
 
     // 3. If passed, update the user's enrollment record (unchanged, but now more reliable)
