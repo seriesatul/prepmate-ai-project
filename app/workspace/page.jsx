@@ -9,7 +9,8 @@ import CourseList from './_component/CourseList'
 const workspace = (children) => {
   return (
     <div>
-       <CourseList/>
+      <Sidebar/>
+      <CourseList/>
     </div>
   )
 }

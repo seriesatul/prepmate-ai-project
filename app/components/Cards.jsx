@@ -6,9 +6,11 @@ function Cards() {
   return (
     <div className='w-full'>
         <div className='max-w-screen-xl mx-auto py-20 flex gap-3'>
-           
-                 <Card width={"basis-1/3"} headingFirst={"Elevate your Learning"} headingSecond={"Create New Course"} paragraph={"The smartest way to build your next curriculum"} background={"bg-blue-600"} foreground={"text-zinc-50"}/>
-            
+
+                  <AddNewCourseDialogBox>
+                     <Card width={"basis-1/3"} headingFirst={"Elevate your Learning"} headingSecond={"Create New Course"} paragraph={"The smartest way to build your next curriculum"} background={"bg-blue-600"} foreground={"text-zinc-50"}/>
+                  </AddNewCourseDialogBox>
+                
            
 
 
