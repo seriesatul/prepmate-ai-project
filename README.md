@@ -7,7 +7,7 @@
   <p align="center">
     An intelligent web application that uses AI to generate comprehensive learning course structures on any user-provided topic.
     <br />
-    <a href="https://edugenius-demo.vercel.app/"><strong>View Demo »</strong></a>
+    <a href="https://prepmate-ai-project-6hun.vercel.app/"><strong>View Demo »</strong></a>
     <br />
     <br />
     <a href="https://github.com/your-username/EduGenius-AI/issues">Report Bug</a>
