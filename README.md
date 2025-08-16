@@ -205,5 +205,5 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ---
 
 <p align="center">
-  Developed by <a href="https://github.com/your-username">[Your Name]</a> with ❤️
+  Developed by <a href="https://github.com/seriesatul">[Atul Singh Chauhan]</a> with ❤️
 </p>
