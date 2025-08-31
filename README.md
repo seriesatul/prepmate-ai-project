@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/user/repo/main/public/logo.png" alt="EduGenius AI Logo" width="150" height="150">
   <!-- Replace the src with a link to your actual logo file -->
 
-  <h1 align="center">EduGenius AI: AI Course Generator</h1>
+  <h1 align="center">PrepMate AI: AI Course Generator</h1>
 
   <p align="center">
     An intelligent web application that uses AI to generate comprehensive learning course structures on any user-provided topic.
